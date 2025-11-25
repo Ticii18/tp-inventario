@@ -1,23 +1,15 @@
 {
-  "name": "tp-ejercicios",
-  "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "start": "node dist/index.js",
-    "dev": "ts-node src/index.ts",
-    "dev:watch": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "tp-inventario",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
   "devDependencies": {
-    "typescript": "^5.9.3",
-    "ts-node": "^10.9.1",
-    "ts-node-dev": "^2.0.0",
-    "@types/node": "^20.5.1"
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
   }
 }
